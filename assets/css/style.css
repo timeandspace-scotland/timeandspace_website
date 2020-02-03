@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  margin: 32px;
   text-align: center;
+  font-size: 48px;
+  margin-bottom: 256px;
 }
 
 p {
@@ -26,7 +28,7 @@ p {
 }
 
 .explanation-HP {
-  max-width: 75%;
+  max-width: 500px;
 }
 
 .charity p {
@@ -42,5 +44,38 @@ p {
 .sponso > p {
   font-size: 28px;
   color: #303030;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .timeAndSpace p {
+    font-size: 18px;
+  }
+  .name p {
+    font-size: 18px;
+  }
+  .charity p {
+    font-size: 18px;
+  }
+  .explanation-HP {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  nav a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1170px) {
+  nav a {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
