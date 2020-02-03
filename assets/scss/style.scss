@@ -53,3 +53,24 @@ p {
 .logo {
   width: 70px;
 }
+
+#ourteam { 
+  & > h1 {
+    padding-bottom: 1em;
+    }
+  div:first-child{
+    padding:0px;
+    }
+    .rightside{
+    //max-width:500px;
+    }
+    .leftside{
+    //max-width:500px;
+    //margin-left:calc(50vw - 500px);
+    }
+
+};
+
+.redcircle {
+  max-width: 20em;
+};
