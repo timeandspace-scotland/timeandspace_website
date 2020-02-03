@@ -1,61 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.wrapper-homePage {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-}
-
-.wrapper-homePage nav {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-column: 1/3;
-}
-
-.wrapper-homePage h2 {
-  -ms-grid-column: 1;
-  grid-column: 1;
-}
-
-.wrapper-homePage h1 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-column: 1/3;
-}
-
-.timeAndSpace {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-column: 1/3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.timeAndSpace div {
-  -ms-grid-column: 1;
-  grid-column: 1;
-}
-
-.timeAndSpace div > p {
-  max-width: 500px;
-  text-align: justify;
-}
-
-.timeAndSpace img {
-  width: 750px;
-  -ms-grid-column: 2;
-  grid-column: 2;
+  font-size: 18px;
 }
 
 h1 {
@@ -69,5 +15,32 @@ p {
 
 .logo {
   width: 70px;
+}
+
+.timeAndSpace p {
+  font-size: 24px;
+}
+
+.name p {
+  font-size: 24px;
+}
+
+.explanation-HP {
+  max-width: 75%;
+}
+
+.charity p {
+  font-size: 24px;
+}
+
+.funded {
+  background-color: #fcdede;
+  color: #303030;
+  margin-top: 128px;
+}
+
+.sponso > p {
+  font-size: 28px;
+  color: #303030;
 }
 /*# sourceMappingURL=style.css.map */
