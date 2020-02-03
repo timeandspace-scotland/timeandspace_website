@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- This is the navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,34 +56,46 @@
 
         </div>
     </nav>
+    <!-- End of navigation bar -->
 
     <h1>About Our Team</h1>
-
-    <section>
-        <h2>Our Staff</h2>
-        <img src="" alt="">
-        <p>Elaine Weir, Manager, Founder</p>
-        <p> Lindsey Miller, Coordinator and Founder</p>
-    </section>
-
-    <section>
-        <h2>Volunteer Counsellors</h2>
-        <img src="" alt="">
-        <p>All of our counsellors attend regular training and are members of BACP or COSCA and work according to strict
-            ethical guidelines.
-        </p>
-        <p>All counselling is confidential.</p>
-    </section>
-
-    <section>
-        <h2>Management Team</h2>
-        <img src="" alt="">
-        <p>Everyone on our management team are volunteers who give up their time, sometimes at a moment’s notice,
-            whenever we need them.
-        </p>
-        <p>They bring a variety of skills with them.</p>
-    </section>
-
+    <div id="ourteam" class="container-fluid">
+        <section class="row">
+            <div class="col-md-6 text-left">
+                <img src="" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2>Our Staff</h2>
+                <p>Elaine Weir, Manager, Founder</p>
+                <p>Lindsey Miller, Coordinator and Founder</p>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-6 text-right">
+                <h2>Volunteer Counsellors</h2>
+                <p>All of our counsellors attend regular training and are members of BACP or COSCA and work according to strict
+                    ethical guidelines.
+                </p>
+                <p>All counselling is confidential.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="" alt="">
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-6">
+                <img src="" alt="">
+            </div>
+            <div class="col-md-6 text-left">
+                <h2>Management Team</h2>
+                <img src="" alt="">
+                <p>Everyone on our management team are volunteers who give up their time, sometimes at a moment’s notice,
+                    whenever we need them.
+                </p>
+                <p>They bring a variety of skills with them.</p>
+            </div>
+        </section>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
