@@ -44,8 +44,38 @@ p {
 
 #ourteam > h1 {
   padding-bottom: 1em; }
-#ourteam div:first-child {
-  padding: 0px; }
+@media screen and (max-width: 992px) {
+  #ourteam div:first-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px; } }
+@media screen and (max-width: 992px) {
+  #ourteam .rightside > h2 {
+    text-align: center; } }
+@media screen and (min-width: 992px) {
+  #ourteam .rightside > p {
+    padding: 0px;
+    max-width: 30vw; } }
+@media screen and (max-width: 992px) {
+  #ourteam .rightside > p {
+    text-align: center;
+    padding: 5px; } }
+
+@media screen and (max-width: 992px) {
+  .leftside > h2 {
+    text-align: center; } }
+@media screen and (max-width: 992px) {
+  .leftside > p {
+    text-align: center;
+    padding: 5px; } }
+@media screen and (min-width: 992px) {
+  .leftside > p {
+    max-width: 30vw;
+    margin-left: calc(50vw - 30vw);
+    padding: 0px; } }
 
 .redcircle {
   max-width: 20em; }
+
+/*# sourceMappingURL=style.css.map */

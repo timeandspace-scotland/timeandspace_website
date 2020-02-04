@@ -59,17 +59,57 @@ p {
     padding-bottom: 1em;
     }
   div:first-child{
-    padding:0px;
+        //this selects the images
+        @media screen and (max-width:992px){
+        display:flex;
+        justify-content:center;
+        width:100%;
+        padding:20px;
+        }
     }
     .rightside{
-    //max-width:500px;
+        
+        //this selects the headings
+        & > h2 {
+            @media screen and (max-width:992px){
+            text-align:center;
+            }
+        }
+        //this selects only the paragraphs
+        & > p {
+            @media screen and (min-width:992px){
+            padding:0px;
+            max-width:30vw;
+            }
+            @media screen and (max-width:992px){
+            text-align:center;
+            padding:5px;
+            }
+            }
+        }
+    
     }
     .leftside{
-    //max-width:500px;
-    //margin-left:calc(50vw - 500px);
-    }
+        //this selects the heading
+        & > h2 {
+            @media screen and (max-width:992px){
+            text-align:center;
+            }
+        }
+        //this selects only the text
+        & > p {
+            @media screen and (max-width:992px){
+            text-align:center;
+            padding:5px;
+            }
+            @media screen and (min-width:992px){
+            max-width:30vw;
+            margin-left:calc(50vw - 30vw);
+            padding:0px;
+            }
+        }
 
-};
+    };
 
 .redcircle {
   max-width: 20em;
