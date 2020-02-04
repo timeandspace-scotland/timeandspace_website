@@ -5,11 +5,10 @@
   font-family: "Roboto", sans-serif;
   color: rgb(41, 40, 40);
 }
-
+// Default Settings
 h1 {
   text-align: center;
   font-size: 48px;
-  margin-bottom: 128px !important;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -23,6 +22,11 @@ h4 {
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+.font-weight-bold {
+  color: #ef6059 !important;
+  font-weight: 900 !important;
 }
 
 .active {
@@ -49,6 +53,7 @@ p {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
+// Home page - CSS
 .timeAndSpace p {
   font-size: 24px;
 }
@@ -79,6 +84,11 @@ p {
 }
 
 @media (max-width: 500px) {
+  //Default
+  .logo {
+    width: 40px;
+  }
+
   h1 {
     font-size: 32px;
   }
@@ -114,11 +124,28 @@ p {
   nav a {
     font-size: 14px;
   }
+
+  .offerImg {
+    display: block;
+    max-width: 750px;
+  }
+  & div > p,
+  & div p > span {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1170px) {
   nav a {
     font-size: 18px;
+  }
+
+  & div > p,
+  & div p > span {
+    max-width: 900px;
+    margin-bottom: 72px;
+    margin: auto;
+    font-size: 24px;
   }
 }
 
@@ -133,4 +160,12 @@ p {
   background-image: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+// Groups We Offer - CSS
+.wrapperOffer {
+  & div > p {
+    margin: auto;
+    width: 80%;
+  }
 }

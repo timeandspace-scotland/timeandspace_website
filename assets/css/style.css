@@ -9,7 +9,6 @@
 h1 {
   text-align: center;
   font-size: 48px;
-  margin-bottom: 128px !important;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -24,6 +23,11 @@ h4 {
 .navbar-toggler:focus {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+
+.font-weight-bold {
+  color: #ef6059 !important;
+  font-weight: 900 !important;
 }
 
 .active {
@@ -80,6 +84,9 @@ p {
 }
 
 @media (max-width: 500px) {
+  .logo {
+    width: 40px;
+  }
   h1 {
     font-size: 32px;
   }
@@ -107,11 +114,26 @@ p {
   nav a {
     font-size: 14px;
   }
+  .offerImg {
+    display: block;
+    max-width: 750px;
+  }
+  div > p,
+  div p > span {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1170px) {
   nav a {
     font-size: 18px;
+  }
+  div > p,
+  div p > span {
+    max-width: 900px;
+    margin-bottom: 72px;
+    margin: auto;
+    font-size: 24px;
   }
 }
 
@@ -126,5 +148,10 @@ p {
   background-image: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+.wrapperOffer div > p {
+  margin: auto;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
