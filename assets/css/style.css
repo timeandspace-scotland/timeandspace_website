@@ -21,8 +21,17 @@ h4 {
   color: #de4238;
 }
 
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .active {
   color: #ef6059 !important;
+}
+
+.nav-link:hover {
+  color: #de4238 !important;
 }
 
 p {
@@ -31,6 +40,16 @@ p {
 
 .logo {
   width: 70px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  border-color: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
 .timeAndSpace p {
@@ -94,5 +113,18 @@ p {
   nav a {
     font-size: 18px;
   }
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 /*# sourceMappingURL=style.css.map */
