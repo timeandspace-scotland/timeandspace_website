@@ -1,49 +1,40 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(41, 40, 40);
 }
-
-.wrapper-homePage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.wrapper-homePage nav {
-  grid-column: 1/3;
-}
-
-.wrapper-homePage h2 {
-  grid-column: 1;
-}
-
-.wrapper-homePage h1 {
-  grid-column: 1/3;
-}
-
-.timeAndSpace {
-  grid-column: 1/3;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.timeAndSpace div {
-  grid-column: 1;
-}
-
-.timeAndSpace div > p {
-  max-width: 500px;
-  text-align: justify;
-}
-
-.timeAndSpace img {
-  width: 750px;
-  grid-column: 2;
-}
-
+// Default Settings
 h1 {
-  margin: 32px;
   text-align: center;
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #de4238;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.font-weight-bold {
+  color: #ef6059 !important;
+  font-weight: 900 !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ef6059 !important;
+}
+
+.nav-link:hover {
+  color: #de4238 !important;
 }
 
 p {
@@ -52,8 +43,135 @@ p {
 
 .logo {
   width: 70px;
+  &:hover {
+    cursor: pointer;
+  }
 }
-//styling specific to ourteam page
+
+.navbar-toggler:focus {
+  border-color: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+// Home page - CSS
+.timeAndSpace p {
+  font-size: 24px;
+}
+
+.name p {
+  font-size: 24px;
+}
+
+.explanation-HP {
+  max-width: 75%;
+}
+
+.charity {
+  & p {
+    font-size: 24px;
+  }
+}
+
+.funded {
+  background-color: #fcdede;
+  color: rgb(48, 48, 48);
+  margin-top: 128px;
+}
+
+.sponso > p {
+  font-size: 28px;
+  color: rgb(48, 48, 48);
+}
+
+@media (max-width: 500px) {
+  //Default
+  .logo {
+    width: 40px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .timeAndSpace p {
+    font-size: 18px;
+  }
+
+  .name p {
+    font-size: 18px;
+  }
+
+  .charity {
+    & p {
+      font-size: 18px;
+    }
+  }
+
+  .explanation-HP {
+    max-width: 100%;
+  }
+
+  .funded {
+    margin-top: 64px;
+  }
+}
+
+@media (min-width: 992px) {
+    nav a {
+        font-size: 14px;
+    }
+    .offerImg {
+        display: block;
+        max-width: 750px;
+    }
+    //& div > p,
+    //& div p > span {
+    //    font-size: 20px;
+    //}
+}
+
+@media (min-width: 1170px) {
+  nav a {
+    font-size: 18px;
+  }
+
+  //& div > p,
+  //& div p > span {
+    max-width: 900px;
+    margin-bottom: 72px;
+    margin: auto;
+    font-size: 20px;
+  //}
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+// Groups We Offer - CSS
+.wrapperOffer {
+  & div > p {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+// Useful Links - CSS
+
+// Our team - CSS
 #ourteam { 
   & > h1 {
     padding-bottom: 1em;
@@ -87,7 +205,6 @@ p {
             }
             }
         }
-    
     }
     .leftside{
         //this selects the heading
@@ -115,7 +232,7 @@ p {
   max-width: 20em;
 };
 
-//styling specific to contact page
+// Contact us - CSS
 #contact {
     & > p {
         color:#DE4238;
@@ -135,5 +252,3 @@ p {
         }
     
 };
-
-
