@@ -234,8 +234,20 @@ p {
 
 // Contact us - CSS
 #contact {
+    
+    #map {
+    display:flex;
+    align-items:center;
+    }
+
     & > p {
         color:#DE4238;
+ }
+
+    iframe {
+        width: 65vw;
+        height: 20vh;
+        text-align:center;
     }
 }
 #contact_info {
@@ -252,3 +264,27 @@ p {
         }
     
 };
+// Donation - CSS
+#donation {
+    button {
+    width:50vw;
+    background-color:#DE4238;
+    border:0px;
+    border-radius:5px;
+    }
+}
+#signature {
+    text-align:right;
+};
+#intro {
+    width:80vw;
+    margin:auto;
+};
+#story {
+    background-color:#FFF4F3;    
+    width:80vw;
+    margin:auto;
+    border:1px solid #DE4238;
+    border-radius:5px;
+}
+

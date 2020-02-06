@@ -154,8 +154,15 @@ p {
 .redcircle {
   max-width: 20em; }
 
+#contact #map {
+  display: flex;
+  align-items: center; }
 #contact > p {
   color: #DE4238; }
+#contact iframe {
+  width: 65vw;
+  height: 20vh;
+  text-align: center; }
 
 @media screen and (max-width: 992px) {
   #contact_info > div {
@@ -164,3 +171,25 @@ p {
   color: #DE4238; }
 #contact_info .far {
   color: #DE4238; }
+
+#donation button {
+  width: 50vw;
+  background-color: #DE4238;
+  border: 0px;
+  border-radius: 5px; }
+
+#signature {
+  text-align: right; }
+
+#intro {
+  width: 80vw;
+  margin: auto; }
+
+#story {
+  background-color: #FFF4F3;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid #DE4238;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
