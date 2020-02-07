@@ -119,6 +119,16 @@ p {
   .funded {
     margin-top: 64px;
   }
+
+  .underWater {
+    & > h2 {
+      font-size: 24px !important;
+      padding: 8px 4px;
+    }
+    & > p {
+      font-size: 18px !important;
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -195,7 +205,106 @@ p {
   background-color: #e3f0ff;
 }
 
-.TEST3 {
+.IOP {
   position: relative;
-  left: -10vh;
+  z-index: 9;
+  overflow: hidden;
+  background-color: #e3f0ff;
+  max-height: 55vh !important;
 }
+
+// Wave Animation
+.wave {
+  z-index: 10;
+  position: relative;
+}
+
+.wave2 {
+  z-index: 11;
+  position: relative;
+  bottom: 200px;
+  -webkit-animation-name: slideInLeftWave1;
+  animation-name: slideInLeftWave1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.wave3 {
+  z-index: 12;
+  position: relative;
+  bottom: 300px;
+  -webkit-animation-name: slideInLeftWave2;
+  animation-name: slideInLeftWave2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.wave4 {
+  z-index: 13;
+  position: relative;
+  bottom: 450px;
+  -webkit-animation-name: slideInLeftWave3;
+  animation-name: slideInLeftWave3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+// Wave animation
+@keyframes slideInLeftWave3 {
+  0% {
+    // -webkit-transform: translate3d(-1%, 0, 0);
+    transform: translate3d(-15%, 0, 0);
+    visibility: visible;
+  }
+
+  50% {
+    // -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    // -webkit-transform: translate3d(-1%, 0, 0);
+    transform: translate3d(-15%, 0, 0);
+  }
+}
+
+@keyframes slideInLeftWave2 {
+  0% {
+    // -webkit-transform: translate3d(-1%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+    visibility: visible;
+  }
+
+  50% {
+    // -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    // -webkit-transform: translate3d(-1%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+  }
+}
+
+@keyframes slideInLeftWave1 {
+  0% {
+    // -webkit-transform: translate3d(-1%, 0, 0);
+    transform: translate3d(-15%, 0, 0);
+    visibility: visible;
+  }
+
+  50% {
+    // -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    // -webkit-transform: translate3d(-1%, 0, 0);
+    transform: translate3d(-15%, 0, 0);
+  }
+}
+
+// AU_DESSUS
