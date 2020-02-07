@@ -15,13 +15,8 @@ h3,
 h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-<<<<<<< HEAD
-  color: #de4238; }
-=======
   color: #de4238;
-  z-index: auto;
-}
->>>>>>> development
+  z-index: auto; }
 
 .navbar-toggler:focus {
   box-shadow: none !important; }
@@ -122,7 +117,6 @@ p {
 
 .wrapperOffer div > p {
   margin: auto;
-<<<<<<< HEAD
   width: 80%; }
 
 #ourteam > h1 {
@@ -199,11 +193,6 @@ p {
   border: 1px solid #DE4238;
   border-radius: 5px; }
 
-/*# sourceMappingURL=style.css.map */
-=======
-  width: 80%;
-}
-
 .underWater > h2 {
   color: white;
   background-color: #76a0f4;
@@ -213,22 +202,31 @@ p {
   z-index: 9999;
   bottom: -15px;
   font-size: 32px;
-  padding: 8px 4px;
-}
-
+  padding: 8px 4px; }
 .underWater > p {
   background-color: white;
   position: relative;
-  z-index: 0;
-}
+  z-index: 0; }
 
 .underWaterTitle {
-  background-color: #e3f0ff;
-}
+  background-color: #e3f0ff; }
 
 .TEST3 {
   position: relative;
-  left: -10vh;
-}
+  left: -10vh; }
+
+#selfharm {
+  background-color: #FFF4F3; }
+  #selfharm #content {
+    padding: 0px;
+    background-color: #FFFFFF; }
+    #selfharm #content h2 {
+      background-color: #DE4238;
+      color: #FFFFFF;
+      margin: 0px;
+      display: flex;
+      justify-content: center; }
+    #selfharm #content p {
+      margin: 5px; }
+
 /*# sourceMappingURL=style.css.map */
->>>>>>> development
