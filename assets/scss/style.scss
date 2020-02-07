@@ -119,6 +119,16 @@ p {
   .funded {
     margin-top: 64px;
   }
+
+  .underWater {
+    & > h2 {
+      font-size: 24px !important;
+      padding: 8px 4px;
+    }
+    & > p {
+      font-size: 18px !important;
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -200,7 +210,7 @@ p {
   z-index: 9;
   overflow: hidden;
   background-color: #e3f0ff;
-  max-height: 65vh !important;
+  max-height: 55vh !important;
 }
 
 // Wave Animation
