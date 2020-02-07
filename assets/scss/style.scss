@@ -203,12 +203,13 @@ p {
   max-height: 65vh !important;
 }
 
-.KEKW {
+// Wave Animation
+.wave {
   z-index: 10;
   position: relative;
 }
 
-.KEKW2 {
+.wave2 {
   z-index: 11;
   position: relative;
   bottom: 200px;
@@ -219,7 +220,7 @@ p {
   animation-timing-function: ease-in-out;
 }
 
-.KEKW3 {
+.wave3 {
   z-index: 12;
   position: relative;
   bottom: 300px;
@@ -230,7 +231,7 @@ p {
   animation-timing-function: ease-in-out;
 }
 
-.KEKW4 {
+.wave4 {
   z-index: 13;
   position: relative;
   bottom: 450px;
@@ -241,19 +242,7 @@ p {
   animation-timing-function: ease-in-out;
 }
 
-// @-webkit-keyframes slideInLeft {
-//   from {
-//     -webkit-transform: translate3d(-100%, 0, 0);
-//     transform: translate3d(-100%, 0, 0);
-//     visibility: visible;
-//   }
-
-//   to {
-//     -webkit-transform: translate3d(0, 0, 0);
-//     transform: translate3d(0, 0, 0);
-//   }
-// }
-
+// Wave animation
 @keyframes slideInLeftWave3 {
   0% {
     // -webkit-transform: translate3d(-1%, 0, 0);
