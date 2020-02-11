@@ -80,6 +80,7 @@ p {
 }
 
 .sponso > p {
+  display: inline-block;
   font-size: 28px;
   color: rgb(48, 48, 48);
 }
@@ -307,4 +308,26 @@ p {
   }
 }
 
-// AU_DESSUS
+// Useful Link css
+.usefulLink {
+  & a {
+    text-decoration: none;
+    & > div {
+      background-color: #fcdede;
+      &:hover {
+        background-color: #ef6059;
+        & > p {
+          color: white;
+        }
+      }
+    }
+
+    & div > img {
+      max-width: 250px;
+    }
+  }
+}
+
+.fa-twitter {
+  color: #16a2f3;
+}

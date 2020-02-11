@@ -80,6 +80,7 @@ p {
 }
 
 .sponso > p {
+  display: inline-block;
   font-size: 28px;
   color: #303030;
 }
@@ -334,5 +335,29 @@ p {
     -webkit-transform: translate3d(-15%, 0, 0);
             transform: translate3d(-15%, 0, 0);
   }
+}
+
+.usefulLink a {
+  text-decoration: none;
+}
+
+.usefulLink a > div {
+  background-color: #fcdede;
+}
+
+.usefulLink a > div:hover {
+  background-color: #ef6059;
+}
+
+.usefulLink a > div:hover > p {
+  color: white;
+}
+
+.usefulLink a div > img {
+  max-width: 250px;
+}
+
+.fa-twitter {
+  color: #16a2f3;
 }
 /*# sourceMappingURL=style.css.map */
