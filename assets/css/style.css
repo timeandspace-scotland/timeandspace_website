@@ -153,6 +153,18 @@ p {
   width: 80%;
 }
 
+@media (max-width: 1333px) {
+  .aboutselfHarm {
+    background-image: url("/assets/img/test2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .selfHarmBg {
+    display: none !important;
+  }
+}
+
 #ourteam > h1 {
   padding-bottom: 1em;
 }
@@ -449,13 +461,20 @@ p {
   position: absolute;
   top: 0%;
   z-index: -4;
+  height: auto;
+  width: 100%;
 }
 
 .fact {
   margin-top: 20%;
 }
 
+#selfharm {
+  background-image: none;
+}
+
 #selfharm #content {
+  max-width: 500px;
   padding: 0px;
   background-color: #ffffff;
 }

@@ -170,6 +170,20 @@ p {
   }
 }
 
+// Media query for about self Harm
+@media (max-width: 1333px) {
+  .aboutselfHarm {
+    background-image: url("/assets/img/test2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .selfHarmBg {
+    display: none !important;
+  }
+}
+
 // Useful Links - CSS
 
 // Our team - CSS
@@ -206,6 +220,7 @@ p {
     }
   }
 }
+
 .leftside {
   //this selects the heading
   & > h2 {
@@ -248,6 +263,7 @@ p {
     text-align: center;
   }
 }
+
 #contact_info {
   & > div {
     @media screen and (max-width: 992px) {
@@ -416,6 +432,8 @@ p {
   position: absolute;
   top: 0%;
   z-index: -4;
+  height: auto;
+  width: 100%;
 }
 
 .fact {
@@ -423,7 +441,9 @@ p {
 }
 
 #selfharm {
+  background-image: none;
   #content {
+    max-width: 500px;
     padding: 0px;
     background-color: #ffffff;
     h2 {
