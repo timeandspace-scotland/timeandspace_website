@@ -1,15 +1,15 @@
 const imgElement = document.getElementById("target");
 
-let count = 1;
+let count = 0;
 
 const increase = () => {
   count++;
   if (count > 2) {
-    count = 1;
+    count = 0;
   }
   imgElement.src = `assets/img/js/anim${count}.png`;
 };
 
 window.setInterval(() => {
   increase();
-}, 500);
+}, 750);
