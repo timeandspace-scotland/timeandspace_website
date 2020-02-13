@@ -302,6 +302,14 @@ p {
 }
 
 // About Voice Hearing - CSS
+#target {
+  max-width: 75px;
+}
+
+.aboutVoiceHR {
+  background-color: #fcdede;
+}
+
 .underWater {
   & > h2 {
     color: white;

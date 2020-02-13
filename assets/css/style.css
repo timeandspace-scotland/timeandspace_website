@@ -284,6 +284,14 @@ p {
   border-radius: 5px;
 }
 
+#target {
+  max-width: 75px;
+}
+
+.aboutVoiceHR {
+  background-color: #fcdede;
+}
+
 .underWater > h2 {
   color: white;
   background-color: #76a0f4;
