@@ -141,23 +141,11 @@ p {
     display: block;
     max-width: 750px;
   }
-  & div > p,
-  & div p > span {
-    font-size: 20px;
-  }
 }
 
 @media (min-width: 1170px) {
   nav a {
     font-size: 18px;
-  }
-
-  & div > p,
-  & div p > span {
-    max-width: 900px;
-    margin-bottom: 72px;
-    margin: auto;
-    font-size: 20px;
   }
 }
 
