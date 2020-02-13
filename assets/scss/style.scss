@@ -170,6 +170,121 @@ p {
   }
 }
 
+// Useful Links - CSS
+
+// Our team - CSS
+#ourteam {
+  & > h1 {
+    padding-bottom: 1em;
+  }
+  div:first-child {
+    //this selects the images
+    @media screen and (max-width: 992px) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  .rightside {
+    //this selects the headings
+    & > h2 {
+      @media screen and (max-width: 992px) {
+        text-align: center;
+      }
+    }
+    //this selects only the paragraphs
+    & > p {
+      @media screen and (min-width: 992px) {
+        padding: 0px;
+        max-width: 30vw;
+      }
+      @media screen and (max-width: 992px) {
+        text-align: center;
+        padding: 5px;
+      }
+    }
+  }
+}
+.leftside {
+  //this selects the heading
+  & > h2 {
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+  }
+  //this selects only the text
+  & > p {
+    @media screen and (max-width: 992px) {
+      text-align: center;
+      padding: 5px;
+    }
+    @media screen and (min-width: 992px) {
+      max-width: 30vw;
+      margin-left: calc(50vw - 30vw);
+      padding: 0px;
+    }
+  }
+}
+
+.redcircle {
+  max-width: 20em;
+}
+
+// Contact us - CSS
+#contact {
+  #map {
+    display: flex;
+    align-items: center;
+  }
+
+  & > p {
+    color: #de4238;
+  }
+
+  iframe {
+    width: 65vw;
+    height: 20vh;
+    text-align: center;
+  }
+}
+#contact_info {
+  & > div {
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+  }
+  .fas {
+    color: #de4238;
+  }
+  .far {
+    color: #de4238;
+  }
+}
+// Donation - CSS
+#donation {
+  button {
+    width: 50vw;
+    background-color: #de4238;
+    border: 0px;
+    border-radius: 5px;
+  }
+}
+#signature {
+  text-align: right;
+}
+#intro {
+  width: 80vw;
+  margin: auto;
+}
+#story {
+  background-color: #fff4f3;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid #de4238;
+  border-radius: 5px;
+}
+
 // About Voice Hearing - CSS
 .underWater {
   & > h2 {
@@ -293,6 +408,31 @@ p {
   100% {
     // -webkit-transform: translate3d(-1%, 0, 0);
     transform: translate3d(-15%, 0, 0);
+  }
+}
+
+// About Self Harm - CSS
+.selfHarmBg {
+  position: absolute;
+  top: 0%;
+  z-index: -4;
+}
+
+.fact {
+  margin-top: 20%;
+}
+
+#selfharm {
+  #content {
+    padding: 0px;
+    background-color: #ffffff;
+    h2 {
+      background-color: #ef6059;
+      color: #ffffff;
+    }
+    p {
+      margin: 5px;
+    }
   }
 }
 

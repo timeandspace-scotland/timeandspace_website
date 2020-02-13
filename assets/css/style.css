@@ -127,22 +127,11 @@ p {
     display: block;
     max-width: 750px;
   }
-  div > p,
-  div p > span {
-    font-size: 20px;
-  }
 }
 
 @media (min-width: 1170px) {
   nav a {
     font-size: 18px;
-  }
-  div > p,
-  div p > span {
-    max-width: 900px;
-    margin-bottom: 72px;
-    margin: auto;
-    font-size: 20px;
   }
 }
 
@@ -162,6 +151,125 @@ p {
 .wrapperOffer div > p {
   margin: auto;
   width: 80%;
+}
+
+#ourteam > h1 {
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 992px) {
+  #ourteam div:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #ourteam .rightside > h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #ourteam .rightside > p {
+    padding: 0px;
+    max-width: 30vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #ourteam .rightside > p {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .leftside > h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .leftside > p {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .leftside > p {
+    max-width: 30vw;
+    margin-left: calc(50vw - 30vw);
+    padding: 0px;
+  }
+}
+
+.redcircle {
+  max-width: 20em;
+}
+
+#contact #map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact > p {
+  color: #de4238;
+}
+
+#contact iframe {
+  width: 65vw;
+  height: 20vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  #contact_info > div {
+    text-align: center;
+  }
+}
+
+#contact_info .fas {
+  color: #de4238;
+}
+
+#contact_info .far {
+  color: #de4238;
+}
+
+#donation button {
+  width: 50vw;
+  background-color: #de4238;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#signature {
+  text-align: right;
+}
+
+#intro {
+  width: 80vw;
+  margin: auto;
+}
+
+#story {
+  background-color: #fff4f3;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid #de4238;
+  border-radius: 5px;
 }
 
 .underWater > h2 {
@@ -335,6 +443,30 @@ p {
     -webkit-transform: translate3d(-15%, 0, 0);
             transform: translate3d(-15%, 0, 0);
   }
+}
+
+.selfHarmBg {
+  position: absolute;
+  top: 0%;
+  z-index: -4;
+}
+
+.fact {
+  margin-top: 20%;
+}
+
+#selfharm #content {
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+#selfharm #content h2 {
+  background-color: #ef6059;
+  color: #ffffff;
+}
+
+#selfharm #content p {
+  margin: 5px;
 }
 
 .usefulLink a {
