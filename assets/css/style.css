@@ -104,12 +104,7 @@ p {
     max-width: 750px; } }
 @media (min-width: 1170px) {
   nav a {
-    font-size: 18px; }
-
-  max-width: 900px;
-  margin-bottom: 72px;
-  margin: auto;
-  font-size: 20px; }
+    font-size: 18px; } }
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -166,7 +161,7 @@ p {
   display: flex;
   align-items: center; }
 #contact > p {
-  color: #DE4238; }
+  color: #de4238; }
 #contact iframe {
   width: 65vw;
   height: 20vh;
@@ -176,13 +171,13 @@ p {
   #contact_info > div {
     text-align: center; } }
 #contact_info .fas {
-  color: #DE4238; }
+  color: #de4238; }
 #contact_info .far {
-  color: #DE4238; }
+  color: #de4238; }
 
 #donation button {
   width: 50vw;
-  background-color: #DE4238;
+  background-color: #de4238;
   border: 0px;
   border-radius: 5px; }
 
@@ -194,10 +189,10 @@ p {
   margin: auto; }
 
 #story {
-  background-color: #FFF4F3;
+  background-color: #fff4f3;
   width: 80vw;
   margin: auto;
-  border: 1px solid #DE4238;
+  border: 1px solid #de4238;
   border-radius: 5px; }
 
 .underWater > h2 {
@@ -228,20 +223,6 @@ p {
 .wave {
   z-index: 10;
   position: relative; }
-
-#selfharm {
-  background-color: #FFF4F3; }
-  #selfharm #content {
-    padding: 0px;
-    background-color: #FFFFFF; }
-    #selfharm #content h2 {
-      background-color: #DE4238;
-      color: #FFFFFF;
-      margin: 0px;
-      display: flex;
-      justify-content: center; }
-    #selfharm #content p {
-      margin: 5px; }
 
 .wave2 {
   z-index: 11;
@@ -297,6 +278,23 @@ p {
     transform: translate3d(0, 0, 0); }
   100% {
     transform: translate3d(-15%, 0, 0); } }
+.selfHarmBg {
+  position: absolute;
+  top: 0%;
+  z-index: -4; }
+
+.fact {
+  margin-top: 20%; }
+
+#selfharm #content {
+  padding: 0px;
+  background-color: #ffffff; }
+  #selfharm #content h2 {
+    background-color: #ef6059;
+    color: #ffffff; }
+  #selfharm #content p {
+    margin: 5px; }
+
 .usefulLink a {
   text-decoration: none; }
   .usefulLink a > div {
