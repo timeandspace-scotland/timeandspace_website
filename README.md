@@ -1,5 +1,7 @@
 # Time and Space Scotland
 
+The website can be found [here](https://timeandspace-scotland.github.io/timeandspace_website/)
+
 ## The legal stuff
 Images are original creations and licensed under Creative Commons [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
 The code is licensed under MIT license.
