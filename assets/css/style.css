@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #292828; }
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif; }
+
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #de4238;
+  z-index: auto; }
+
+.navbar-toggler:focus {
+  box-shadow: none !important; }
+
+.font-weight-bold {
+  color: #ef6059 !important;
+  font-weight: 900 !important; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ef6059 !important; }
+
+.nav-link:hover {
+  color: #de4238 !important; }
+
+p {
+  margin: 0; }
+
+.logo {
+  width: 70px; }
+  .logo:hover {
+    cursor: pointer; }
+
+.navbar-toggler:focus {
+  border-color: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6); }
+
+.timeAndSpace p {
+  font-size: 24px; }
+
+.name p {
+  font-size: 24px; }
+
+.explanation-HP {
+  max-width: 75%; }
+
+.charity p {
+  font-size: 24px; }
+
+.funded {
+  background-color: #fcdede;
+  color: #303030;
+  margin-top: 128px; }
+
+.sponso > p {
+  display: inline-block;
+  font-size: 28px;
+  color: #303030; }
+
+@media (max-width: 500px) {
+  .logo {
+    width: 40px; }
+
+  h1 {
+    font-size: 32px; }
+
+  h2 {
+    font-size: 24px; }
+
+  .timeAndSpace p {
+    font-size: 18px; }
+
+  .name p {
+    font-size: 18px; }
+
+  .charity p {
+    font-size: 18px; }
+
+  .explanation-HP {
+    max-width: 100%; }
+
+  .funded {
+    margin-top: 64px; }
+
+  .underWater > h2 {
+    font-size: 24px !important;
+    padding: 8px 4px; }
+  .underWater > p {
+    font-size: 18px !important; } }
+@media (min-width: 992px) {
+  nav a {
+    font-size: 14px; }
+
+  .offerImg {
+    display: block;
+    max-width: 750px; } }
+@media (min-width: 1170px) {
+  nav a {
+    font-size: 18px; } }
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.wrapperOffer div > p {
+  margin: auto;
+  width: 80%; }
+
+@media (max-width: 1333px) {
+  .aboutselfHarm {
+    background-image: url("/assets/img/test2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .selfHarmBg {
+    display: none !important; } }
+#ourteam > h1 {
+  padding-bottom: 1em; }
+@media screen and (max-width: 992px) {
+  #ourteam div:first-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px; } }
+@media screen and (max-width: 992px) {
+  #ourteam .rightside > h2 {
+    text-align: center; } }
+@media screen and (min-width: 992px) {
+  #ourteam .rightside > p {
+    padding: 0px;
+    max-width: 30vw; } }
+@media screen and (max-width: 992px) {
+  #ourteam .rightside > p {
+    text-align: center;
+    padding: 5px; } }
+
+@media screen and (max-width: 992px) {
+  .leftside > h2 {
+    text-align: center; } }
+@media screen and (max-width: 992px) {
+  .leftside > p {
+    text-align: center;
+    padding: 5px; } }
+@media screen and (min-width: 992px) {
+  .leftside > p {
+    max-width: 30vw;
+    margin-left: calc(50vw - 30vw);
+    padding: 0px; } }
+
+.redcircle {
+  max-width: 20em; }
+
+#contact #map {
+  display: flex;
+  align-items: center; }
+#contact > p {
+  color: #de4238; }
+#contact iframe {
+  width: 65vw;
+  height: 20vh;
+  text-align: center; }
+
+@media screen and (max-width: 992px) {
+  #contact_info > div {
+    text-align: center; } }
+#contact_info .fas {
+  color: #de4238; }
+#contact_info .far {
+  color: #de4238; }
+
+#donation button {
+  width: 50vw;
+  background-color: #de4238;
+  border: 0px;
+  border-radius: 5px; }
+
+#signature {
+  text-align: right; }
+
+#intro {
+  width: 80vw;
+  margin: auto; }
+
+#story {
+  background-color: #fff4f3;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid #de4238;
+  border-radius: 5px; }
+
+#target {
+  max-width: 75px; }
+
+.aboutVoiceHR {
+  background-color: #fcdede; }
+
+.underWater > h2 {
+  color: white;
+  background-color: #76a0f4;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+  z-index: 9999;
+  bottom: -15px;
+  font-size: 32px;
+  padding: 8px 4px; }
+.underWater > p {
+  background-color: white;
+  position: relative;
+  z-index: 0; }
+
+.underWaterTitle {
+  background-color: #e3f0ff; }
+
+.IOP {
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+  background-color: #e3f0ff;
+  max-height: 55vh !important; }
+
+.wave {
+  z-index: 10;
+  position: relative; }
+
+.wave2 {
+  z-index: 11;
+  position: relative;
+  bottom: 200px;
+  -webkit-animation-name: slideInLeftWave1;
+  animation-name: slideInLeftWave1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+.wave3 {
+  z-index: 12;
+  position: relative;
+  bottom: 300px;
+  -webkit-animation-name: slideInLeftWave2;
+  animation-name: slideInLeftWave2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+.wave4 {
+  z-index: 13;
+  position: relative;
+  bottom: 450px;
+  -webkit-animation-name: slideInLeftWave3;
+  animation-name: slideInLeftWave3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+@keyframes slideInLeftWave3 {
+  0% {
+    transform: translate3d(-15%, 0, 0);
+    visibility: visible; }
+  50% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(-15%, 0, 0); } }
+@keyframes slideInLeftWave2 {
+  0% {
+    transform: translate3d(-10%, 0, 0);
+    visibility: visible; }
+  50% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(-10%, 0, 0); } }
+@keyframes slideInLeftWave1 {
+  0% {
+    transform: translate3d(-15%, 0, 0);
+    visibility: visible; }
+  50% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(-15%, 0, 0); } }
+.selfHarmBg {
+  position: absolute;
+  top: 0%;
+  z-index: -4;
+  height: auto;
+  width: 100%; }
+
+.fact {
+  margin-top: 20%; }
+
+#selfharm {
+  background-image: none; }
+  #selfharm #content {
+    max-width: 500px;
+    padding: 0px;
+    background-color: #ffffff; }
+    #selfharm #content h2 {
+      background-color: #ef6059;
+      color: #ffffff; }
+    #selfharm #content p {
+      margin: 5px; }
+
+.usefulLink a {
+  text-decoration: none; }
+  .usefulLink a > div {
+    max-width: 750px;
+    min-height: 250px;
+    margin: auto;
+    background-color: #fcdede; }
+    .usefulLink a > div:hover {
+      background-color: #ef6059; }
+      .usefulLink a > div:hover > p {
+        color: white; }
+  .usefulLink a div > img {
+    max-width: 250px; }
+
+.fa-twitter {
+  color: #16a2f3; }
+
+/*# sourceMappingURL=style.css.map */
