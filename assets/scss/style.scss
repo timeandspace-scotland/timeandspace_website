@@ -184,8 +184,6 @@ p {
   }
 }
 
-// Useful Links - CSS
-
 // Our team - CSS
 #ourteam {
   & > h1 {
@@ -490,3 +488,21 @@ p {
 .fa-twitter {
   color: #16a2f3;
 }
+
+// Donation - CSS
+#donation {
+	& button {
+		background-color: #fcdede;
+		&:hover { 
+			background-color:#ef6059;
+		};
+	};
+};
+
+
+#donationbutton {
+	color:black;
+	&:hover {
+		color:white;
+	}
+};
