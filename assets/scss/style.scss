@@ -495,18 +495,17 @@ p {
 
 // Donation - CSS
 #donation {
-	& button {
-		background-color: #fcdede;
-		&:hover { 
-			background-color:#ef6059;
-		};
-	};
-};
-
+  & button {
+    background-color: #ef6059;
+    &:hover {
+      background-color: #cc423b;
+    }
+  }
+}
 
 #donationbutton {
-	color:black;
-	&:hover {
-		color:white;
-	}
-};
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
