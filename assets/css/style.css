@@ -332,4 +332,14 @@ p {
 .fa-twitter {
   color: #16a2f3; }
 
+#donation button {
+  background-color: #fcdede; }
+  #donation button:hover {
+    background-color: #ef6059; }
+
+#donationbutton {
+  color: black; }
+  #donationbutton:hover {
+    color: white; }
+
 /*# sourceMappingURL=style.css.map */
