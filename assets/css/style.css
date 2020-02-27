@@ -126,7 +126,7 @@ p {
 
 @media (max-width: 1333px) {
   .aboutselfHarm {
-    background-image: url("./assets/img/selfHarmBg.svg");
+    background-image: url("../img/selfHarmBg.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
