@@ -56,11 +56,11 @@ p {
 
 // Home page - CSS
 .timeAndSpace p {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .name p {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .explanation-HP {
@@ -71,6 +71,10 @@ p {
   & p {
     font-size: 24px;
   }
+}
+
+.information {
+  max-width: 1000px;
 }
 
 .funded {
@@ -491,18 +495,17 @@ p {
 
 // Donation - CSS
 #donation {
-	& button {
-		background-color: #fcdede;
-		&:hover { 
-			background-color:#ef6059;
-		};
-	};
-};
-
+  & button {
+    background-color: #ef6059;
+    &:hover {
+      background-color: #cc423b;
+    }
+  }
+}
 
 #donationbutton {
-	color:black;
-	&:hover {
-		color:white;
-	}
-};
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
