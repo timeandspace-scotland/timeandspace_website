@@ -93,7 +93,8 @@ The code with the red line next to it is the one of interest. It is above the Ch
 (Do not delete any of these lines of code with "script" in it below).
 
 ![image of the code](https://raw.githubusercontent.com/timeandspace-scotland/timeandspace_website/master/assets/img/screenshots/code_screenshot.png)
-You can see a number of sponsors are added, like for example the Weir Charitable Trust and Women's fund for Scotland.
+You can see a number of sponsors are already present, like for example the Weir Charitable Trust and Women's fund for Scotland.
+
 
 The code looks like this: 
 ```
@@ -103,7 +104,8 @@ The code looks like this:
  <img class=" mt-4 mt-lg-0" src="./assets/img/women_scotlandc 1.svg" />
  <p class="text-center m-lg-0 mt-4 mt-lg-0">DWT Cargill Fund</p>
 ```
-Each line represents an image of a sponsor. If you need to remove a sponsor, you will need to remove a line. If you need to add a sponsor, you will need to add a line.
+
+Each line represents an image of a sponsor, identifiable by the filenames. If you need to remove a sponsor, you will need to remove a line. If you need to add a sponsor, you will need to add a line.
 
 
 At the top of all that code, in the top right corner, there is a pencil. If you click on the pencil, it will allow you to edit the file.
